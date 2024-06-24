@@ -1,0 +1,6 @@
+source "C:/ESP32/Espressif/frameworks/esp-idf-v5.0.2/components/bootloader/Kconfig.projbuild"
+source "C:/ESP32/Espressif/frameworks/esp-idf-v5.0.2/components/esp_app_format/Kconfig.projbuild"
+source "C:/ESP32/Espressif/frameworks/esp-idf-v5.0.2/components/esp_rom/Kconfig.projbuild"
+source "C:/ESP32/Espressif/frameworks/esp-idf-v5.0.2/components/esptool_py/Kconfig.projbuild"
+source "C:/ESP32/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/Kconfig.projbuild"
+source "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/main/Kconfig.projbuild"

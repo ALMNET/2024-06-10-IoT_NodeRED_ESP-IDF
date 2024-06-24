@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/CMakeFiles/bootloader
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/CMakeFiles/bootloader.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/CMakeFiles/bootloader-complete.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

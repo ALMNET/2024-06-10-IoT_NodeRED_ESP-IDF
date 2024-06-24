@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "D:/Armando/OneDrive/Desktop/ESP32_Example_Blink/blink/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
