@@ -8,8 +8,7 @@
 #include "led_strip.h"
 #include "sdkconfig.h"
 
-
-#define BLINK_GPIO 2
+#define LED_SYSTEM 2
 
 #define UART_NUM UART_NUM_1
 #define INITIAL_BAUD_RATE 115200
@@ -22,8 +21,6 @@ static const char *TAG = "Debug";
 
 // received data byte from uart
 char receivedData;
-
-
 
 static uint8_t s_led_state = 0;
 
@@ -45,14 +42,14 @@ void change_baud_rate(uint32_t baud_rate);
 void app_main(void)
 {
     // Configure keepalive Led as output
-    gpio_reset_pin(BLINK_GPIO);
-    gpio_set_direction(BLINK_GPIO, GPIO_MODE_OUTPUT);
+    gpio_reset_pin(LED_SYSTEM);
+    gpio_set_direction(LED_SYSTEM, GPIO_MODE_OUTPUT);
 
     // Initialize UART
     init_uart();
 
     vTaskDelay(1000 / portTICK_PERIOD_MS); // Delay to ensure initialization is complete
-    change_baud_rate(NEW_BAUD_RATE);
+    change_baud_rate(9600);
 
     while (1) {
 
@@ -97,7 +94,7 @@ void init_uart() {
 static void blink_led(void)
 {
     /* Set the GPIO level according to the state (LOW or HIGH)*/
-    gpio_set_level(BLINK_GPIO, s_led_state);
+    gpio_set_level(LED_SYSTEM, s_led_state);
 }
 
 char uart_read_char() {
